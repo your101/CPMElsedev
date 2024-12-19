@@ -6,9 +6,9 @@
 
 4. pkg install python-pip
 
-5. git clone https://github.com/CPMEwan/cpmewan.git
+5. git clone https://github.com/CPMElsedev/CPMElsedev.git
 
-6. cd cpmewan
+6. cd CPMElsedev
 
 7. git pull
 
