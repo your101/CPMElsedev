@@ -136,7 +136,7 @@ if __name__ == "__main__":
         console.print("[bold cyan][%] Trying to Login[/bold cyan]: ", end=None)
         cpm = CPMElsedev(acc_access_key)
         login_response = cpm.login(acc_email, acc_password)
-        if login_response != 0:
+        if login_response ≠ 0:
             if login_response == 100:
                 print(Colorate.Horizontal(Colors.rainbow, 'ACCOUNT NOT FOUND.'))
                 sleep(2)
