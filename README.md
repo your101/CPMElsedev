@@ -4,7 +4,7 @@
 
 3. pkg install git
 
-4. pkg install python-pip
+4. pkg install python -y
 
 5. git clone https://github.com/CPMElsedev/CPMElsedev.git
 
@@ -12,12 +12,6 @@
 
 7. git pull
 
-8. python3 -m pip install requests
+8. pip install -r requirements.txt
 
-9. pkg i python-numpy
-
-10. pip install rich --upgrade
-
-11. pip install -r requirements.txt
-
-12. python main.py
+9. python main.py
