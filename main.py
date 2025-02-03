@@ -511,7 +511,7 @@ if __name__ == "__main__":
                     continue
             elif service == 21: # Unlock Smoke
                 console.print("[%] Unlocking Animations: ", end=None)
-                if cpm.unlock_animations(self)():
+                if cpm.unlock_animations():
                     print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                     print(Colorate.Horizontal(Colors.rainbow, '======================================'))
                     answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
@@ -524,7 +524,7 @@ if __name__ == "__main__":
                     continue
             elif service == 22: # Unlock Smoke
                 console.print("[%] Unlocking Equipaments Male: ", end=None)
-                if cpm.unlock_equipments_male(self)():
+                if cpm.unlock_equipments_male():
                     print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                     print(Colorate.Horizontal(Colors.rainbow, '======================================'))
                     answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
@@ -537,7 +537,7 @@ if __name__ == "__main__":
                     continue
             elif service == 23: # Unlock Smoke
                 console.print("[%] Unlocking Equipaments Female: ", end=None)
-                if cpm.unlock_equipments_female(self)():
+                if cpm.unlock_equipments_female():
                     print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                     print(Colorate.Horizontal(Colors.rainbow, '======================================'))
                     answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
